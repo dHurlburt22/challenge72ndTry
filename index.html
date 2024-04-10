@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailwindTrial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="styles/stylesheet.css" rel="stylesheet">
+</head>
+<body>
+
+  <div class="flex justify-evenly">
+    <div class="inline rounded border-x-slate-400 border-2 p-1 mt-1">
+      <div class="pl-3 inline">Popular</div>
+      <img class="inline ml-3 pr-3" src="images/arrow.png" alt="arrow"/>
+    </div>
+    <div class="navBarEffects">Discover</div>
+    <div class="navBarEffects">Animation</div>
+    <div class="navBarEffects">Branding</div>
+    <div class="navBarEffects">Illustration</div>
+    <div class="navBarEffects">Mobile</div>
+    <div class="inline navBarEffects">
+      <div class="inline">Print</div>
+      <img class="inline md:-rotate-90" src="images/arrow.png" alt="arrow">
+    </div>
+    <div class="filterBar inline-flex">
+      <img class="h-3/6 mt-3" src="images/3Lines.png" alt="threeLines">
+      <div class="mt-2">Filters</div>
+    </div>
+  </div>
+
+  <div class="grid grid-flow-col grid-cols-3 ml-20 mt-10">
+    
+    <div class="col-start-0">
+    <img class="w-full max-w-96 rounded" src="images/1stImage.png" alt="firstImage">
+    <div class="flex space-evenly h-6">
+      <img class="mr-16" src="images/1stBar1st.png" alt="1stBar"/>
+      <img src="images/1stBar.png" alt="2ndBar"/>   
+    </div>
+    </div>
+
+    <div class="mr-16">
+    <img class="w-full max-w-96 rounded" src="images/ormanClarkImage.png" alt="secondImage">
+    <div class="flex space-evenly h-6">
+      <img class="mr-24" src="images/2ndBar1.png" alt="1stBar"/>
+      <img src="images/2ndBar2.png" alt="2ndBar"/>   
+    </div>
+    </div>
+
+    <div class="mr-20 -mt-1">
+    <img class="w-full max-w-96 h-72 rounded" src="images/3rdImage.png" alt="thirdImage">
+    <div class="flex space-evenly h-8">
+      <img class="mr-24" src="images/3rdBar1.png" alt="1stBar"/>
+      <img src="images/3rdBar2.png" alt="2ndBar"/>   
+    </div>
+    </div>
+
+  </div>
+
+  <div class="grid grid-flow-col grid-cols-3 gap-4 mt-10">
+    
+    <div class="ml-20 col-start-0">
+    <img class="w-full max-w-96 rounded" src="images/4thImage.png" alt="fourthImage">
+    <div class="flex space-evenly h-8">
+      <img class="mr-16" src="images/4thBar1.png" alt="1stBar"/>
+      <img src="images/4thBar2.png" alt="2ndBar"/>   
+    </div>
+    </div>
+
+    <div class="ml-12">
+    <img class="w-full max-w-96 rounded" src="images/5thImage.png" alt="fifthImage">
+    <div class="flex space-evenly h-6">
+      <img class="mr-28" src="images/5thBar1.png" alt="1stBar"/>
+      <img src="images/5thBar2.png" alt="2ndBar"/>   
+    </div>
+    </div>
+
+    <div class="ml-4">
+    <img class="w-full max-w-96 h-72 rounded" src="images/6thImage.png" alt="sixthImage">
+    <div class="flex space-evenly h-8">
+      <img class="mr-28" src="images/6thBar1.png" alt="1stBar"/>
+      <img class="relative bottom-8 left-1 size-24" src="images/6thBArSecond.png" alt="2ndBar"/>   
+    </div>
+    </div>
+
+  </div>
+  
+</body>
+</html>
